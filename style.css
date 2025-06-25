@@ -60,6 +60,7 @@ menu {
     background-color: #417a3f;
     height: 5.7vh;
     justify-content: center;
+    max-width: 100%;
 }
 
 nav ul {
@@ -99,7 +100,7 @@ main {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     z-index: -1;
     object-fit: cover;
 }
