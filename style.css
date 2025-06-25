@@ -60,7 +60,6 @@ menu {
     background-color: #417a3f;
     height: 5.7vh;
     justify-content: center;
-    max-width: 100%;
 }
 
 nav ul {
@@ -100,7 +99,7 @@ main {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 120vh;
+    height: 100vh;
     z-index: -1;
     object-fit: cover;
 }
@@ -232,13 +231,13 @@ footer p {
     }
 
     nav ul {
-        gap: 3vh;
+        gap: 1vh;
         padding: 0.5vh 2vw;
     }
 
     nav ul a {
         font-size: 1.7vh;
-        padding: 0.5vh 2vh;
+        padding: 0vh 2vh;
     }
 
     .caixa-principal {
@@ -264,11 +263,12 @@ footer p {
         max-width: 95%;
     }
 
-    .time p {
+    body p {
         font-size: 2.2vh;
     }
 
     .Imagem-Fundo {
         object-fit: cover;
+        height: 100vh;
      }
 }
