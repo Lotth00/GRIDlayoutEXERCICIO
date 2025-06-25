@@ -207,3 +207,28 @@ footer p {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .container {
+        grid-template-areas: 'header'
+                             'menu'
+                             'main'
+                             'footer';
+        grid-template-rows: auto auto 1fr auto;
+    }
+
+    .container-header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .time {
+        flex-basis: 100%;
+        max-width: none;
+    }
+}
+
