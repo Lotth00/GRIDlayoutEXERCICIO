@@ -208,11 +208,6 @@ footer p {
 }
 
 @media (max-width: 768px) {
-    .container-header {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
     h1 {
         font-size: 3.5vh;
         margin: 0;
@@ -223,12 +218,8 @@ footer p {
         margin-bottom: 1vh;
     }
 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 1vh;
-        margin: 0;
-        padding: 1vh 0;
+    header {
+        height: 9vh;
     }
 
     nav ul a {
