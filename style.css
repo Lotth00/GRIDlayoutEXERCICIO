@@ -208,27 +208,58 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    .container-header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
     h1 {
-        font-size: 4vh;
-        margin-top: 1vh;
+        font-size: 3.5vh;
+        margin: 0;
     }
 
     i {
-        font-size: 6vh;
+        font-size: 5vh;
+        margin-bottom: 1vh;
     }
 
-    h2 {
-        font-size: 3.4vh;
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1vh;
+        margin: 0;
+        padding: 1vh 0;
     }
 
     nav ul a {
         font-size: 2.4vh;
-        padding: 0.4vh 1vh;
+        padding: 1vh 2vh;
     }
 
-    p {
-        font-size: 2.5vh;
+    .caixa-principal {
+        margin: 4vw 5vw;
+        padding: 4vw;
     }
 
+    h2 {
+        font-size: 3.2vh;
+    }
+
+    h3 {
+        font-size: 2.6vh;
+    }
+
+    main p,
+    #resultados li {
+        font-size: 2.4vh;
+    }
+
+    .time {
+        flex-basis: 90%;
+        max-width: 95%;
+    }
+
+    .time p {
+        font-size: 2.2vh;
+    }
 }
-
