@@ -60,14 +60,13 @@ menu {
     background-color: #417a3f;
     height: 5.7vh;
     justify-content: center;
-    gap: 4vw;
 }
 
 nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
-    gap: 10vw;
+    gap: 1vw;
     margin: 0;
     padding: 0.4vh;
 }
@@ -79,6 +78,8 @@ nav ul a {
     line-height: 5vh;
     padding: 0.6vh 1.5vh;
     border-radius: 0.5rem;
+    display: block;
+    width: 100%;
     transition: background-color 0.3s ease; /* esse transition faz a mudança de cor ser mais limpa, tipo demorando para aparecer com aql segundos */
 }
 
@@ -231,11 +232,12 @@ footer p {
 
     nav ul {
         gap: 3vh;
+        padding: 0.5vh 2vw;
     }
 
     nav ul a {
         font-size: 1.7vh;
-        padding: 1vh 2vh;
+        padding: 0.5vh 2vh;
     }
 
     .caixa-principal {
