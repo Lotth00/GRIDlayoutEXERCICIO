@@ -127,6 +127,8 @@ section {
     padding: 1vh 0;
 }
 
+
+
 h2 {
     color: #000000;
     font-size: 4vh;
@@ -160,6 +162,10 @@ main p {
     justify-content: center;
     gap: 2vw;
     margin-top: 2vh;
+}
+
+.equipes p {
+    text-indent: 0;
 }
 
 .time {
